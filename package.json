@@ -1,0 +1,22 @@
+{
+  "name": "elf",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp --env production",
+    "build:test": "gulp --env testing"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-template": "^5.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
